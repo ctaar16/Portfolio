@@ -8,7 +8,7 @@ export default function About() {
        </div>
       <div>
         <p>
-          E-Commerce Project Manager turned Junior Developer, I'm looking to bring my passion
+          My Brand Statement Here
         </p>
 
 

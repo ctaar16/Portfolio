@@ -5,24 +5,32 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="top">
-      <img className="face" src="/assets/chris.jpeg" />
+      <div className="headerleft">
+        <img className="face" src="/assets/chris.jpeg" />
+      </div>
 
-      <div className="header">
+      <div className="headercenter">
         <Link to="/" className="link">
-          <h1>Home</h1>
+          <h2>Home</h2>
         </Link>
 
-        <Link to="/Projects" className="link">
-          <h1>Projects</h1>
+        <Link to="/Portfolio" className="link">
+          <h2>Portfolio</h2>
         </Link>
 
-        <Link to="/AboutMe" className="link">
-          <h1>About</h1>
+        <Link to="/About" className="link">
+          <h2>About</h2>
         </Link>
 
         <Link to="Contact" className="link">
-          <h1>Contact</h1>
+          <h2>Contact</h2>
         </Link>
+      </div>
+
+      <div className="headerright">
+      
+        <img className="linked" src="/assets/linkedin.png" />
+        <img className="git" src="/assets/github.png" />
       </div>
     </div>
   );

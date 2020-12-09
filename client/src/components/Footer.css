@@ -3,6 +3,11 @@
     width: 100vw;
     background-color: #355F54;
     color: white;
-    padding-top: 15px;
+    margin: 5px 530px 0px 0px;
+
 }
 
+.footer1{
+    align-content: center;
+    margin: 0px 200px 0px 0px;
+}

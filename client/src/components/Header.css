@@ -1,20 +1,31 @@
 .top {
   background-color: #355f54;
   height: 102px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header {
-  display: inline-flex;
-  flex-direction: row;
+.headercenter{
+  display:flex;
   justify-content: space-between;
+  align-items: center;
+  
 }
+
+.headerleft, .headerright{
+  align-items: center;
+}
+
+
 
 .link {
-  padding: 0px 15px 0px 15px;
+  padding: 10px 25px 0px 25px;
   justify-content: space-between;
   text-decoration: none;
   color: white;
   right: 3px;
+  align-items: center;
 }
 
 .face {
@@ -25,3 +36,18 @@
   font-size: 18px;
   border-radius: 35px;
 }
+
+.git{
+
+  height:60px;
+  width:60px;
+  margin: 0px 0px 0px 0px;
+  
+}
+
+.linked{
+  height: 60px;
+  width: 60px;
+  right: 3px;
+}
+

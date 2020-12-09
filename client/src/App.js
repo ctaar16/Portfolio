@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Homepage from './screens/Homepage';
 import Portfolio from './screens/Portfolio';
 import About from './screens/About';
-// import Contact from './screens/Contact';
+import Contact from './screens/Contact';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 
           <Route path = "/About" component ={About}></Route>
 
-          {/* <Route path = "/Contact" component ={Contact}></Route> */}
+          <Route path = "/Contact" component ={Contact}></Route>
 
           <Route path = "/" component ={Homepage}></Route>
 
