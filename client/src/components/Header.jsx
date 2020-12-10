@@ -28,10 +28,10 @@ export default function Header() {
       </div>
 
       <div className="headerright">
-        <a href="https://www.linkedin.com/in/chris-haar/">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chris-haar/">
         <img className="linked" src="/assets/linkedin.png" />
         </a>
-        <a href="https://github.com/ctaar16">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ctaar16">
         <img className="git" src="/assets/github.png" />
         </a>
       </div>

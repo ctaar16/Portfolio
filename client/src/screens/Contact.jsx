@@ -3,8 +3,14 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="mid">
-      <h1> Contact Me</h1>
-      <h2>Email:</h2>
+      
+      
+      <div className="abt">
+      <h1>Contact Me</h1>
+      </div>
+      <div className="abt">
+      <h2>Email: cthaar16@gmail.com</h2>
+      </div>
        
     </div>
   );

@@ -10,17 +10,15 @@
   display:flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .headerleft, .headerright{
   align-items: center;
 }
 
-
-
 .link {
   padding: 10px 25px 0px 25px;
+  margin: 0px 10px 0px 10px;
   justify-content: space-between;
   text-decoration: none;
   color: white;
@@ -38,11 +36,9 @@
 }
 
 .git{
-
   height:60px;
   width:60px;
-  margin: 0px 0px 0px 0px;
-  
+  margin: 0px 0px 0px 0px; 
 }
 
 .linked{
