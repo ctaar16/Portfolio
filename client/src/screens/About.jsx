@@ -1,4 +1,5 @@
 import React from "react";
+import rescue from '../videos/rescue.mp4'
 
 export default function About() {
   return (
@@ -16,13 +17,13 @@ I am a versatile software engineer who is passionate about learning and eager to
     </div>
       
       <div className="othercontainer">
-        <h1 className="containertitle">Other Hobbies</h1>
+        <h1 className="containertitle">Other Interests</h1>
         <div className="hinfo">
         <ul>
-        <li className="hobbies">Web Developer</li>
-        <li className="hobbies">Outdoor Enthusiast</li>
+        <li className="hobbies">Developing Apps</li>
+        <li className="hobbies">Hiking and Camping</li>
         <li className="hobbies">Travel Enthusiast</li>
-        <li className="hobbies">Winter Sport Enthusiast</li>
+        <li className="hobbies">Snowboarding</li>
         <li className="hobbies">Amateur Pit Master</li>
         <li className="hobbies">4x4 Rescue Volunteer</li>
         </ul>
@@ -36,6 +37,9 @@ I am a versatile software engineer who is passionate about learning and eager to
       <img className="pic" src="/assets/snowboard.jpg"/>
       <img className="pic" src="/assets/fish.jpg"/>
       <img className="pic" src="/assets/travel.jpg"/>
+      <video className="vid" autoPlay loop muted>
+        <source src={rescue} type="video/mp4"/>
+      </video>
 
 
     </div>

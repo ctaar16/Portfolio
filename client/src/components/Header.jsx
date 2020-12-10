@@ -9,6 +9,7 @@ export default function Header() {
         <img className="face" src="/assets/chris.jpeg" />
       </div>
 
+      
       <div className="headercenter">
         <Link to="/" className="link">
           <h2>Home</h2>

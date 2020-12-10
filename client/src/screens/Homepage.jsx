@@ -6,9 +6,7 @@ export default function Homepage() {
     <div className="mid" >
       <div className="main">
         <p className="name"> Chris Haar</p>
-
         <p className="slash">|</p>
-
         <p className="position">Software Engineer</p>
       </div>
       <div className="explore">
