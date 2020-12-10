@@ -71,6 +71,7 @@
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px #ddbea9;
+  font-size: 30px;
 }
 
 .portfolio {
@@ -86,6 +87,12 @@
   margin: 15px auto 45px auto;
   border-radius: 50px;
 }
+
+.card1:hover{
+  transform: scale(1.2)
+}
+
+
 .cardtitle {
   color: white;
   font-size: 25px;
@@ -99,9 +106,24 @@
   border-radius: 50px;
 }
 
-.abt {
+.aboutmain{
+  color: rgb(77, 74, 74);
+  height: 800%vh;
+  display: flex;
+  flex-direction: column;
+}
+.abouttop{
+  display:flex;
+
+}
+
+.aboutcontainer {
   color: white;
-  text-shadow: 2px 2px #ddbea9;
+  font-size: 30px;
+  margin: 0px 0px 0px 90px;
+}
+.aboutcontainer:hover{
+  transform: scale(1.1);
 }
 
 
@@ -109,8 +131,51 @@
   border: solid 5px #355f54;
   background-color: rgb(119, 119, 119);
   color: white;
-  width: 50vw;
+  width: 60vw;
   border-radius: 50px;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+.hinfo{
+  border: solid 5px #355f54;
+  background-color: rgb(119, 119, 119);
+  color: white;
+  width: 20vw;
+  border-radius: 50px;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+
+.othercontainer{
+  font-size: 30px;
+  margin: 0px 10px 0px 140px;
+}
+.othercontainer:hover{
+  transform: scale(1.1);
+}
+
+.containertitle{
+  color: white;
+  text-shadow: 2px 2px #ddbea9;
+}
+
+.hobbies {
+  display: flex;
+  align-content: center;
+}
+
+
+.pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 40px;
+  padding: 15px;
+}
+
+.pic:hover{
+  transform: scale(1.2)
 }

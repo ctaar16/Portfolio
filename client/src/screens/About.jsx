@@ -2,25 +2,46 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="mid">
+    <div className="aboutmain">
+      <div className="abouttop">
+
       
-      <div className="abt">
-        <h1>About Me</h1>
-       </div>
-      
-      <div className="info">
+      <div className="aboutcontainer">
+        <h1 className="containertitle">About Me</h1>
+        <div className="info">
         <p>
 I am a versatile software engineer who is passionate about learning and eager to make long-term contributions at a respected company. With over eight years of professional experience, including experience managing a team of website developers, I am making a career shift to focus directly on programming. I enjoy the technically challenging aspects of application development, and I am excited to continue improving my programming skills while working as a vital member of a successful team.
         </p>
       </div>
+    </div>
       
-      <div>
-        <ul>GET TO KNOW ME: </ul>
-        <li>Web Developer</li>
-        <li>Outdoor Enthusiast</li>
-        <li>Travel Enthusiast</li>
-        <li>SAR Volunteer</li>
+      <div className="othercontainer">
+        <h1 className="containertitle">Other Hobbies</h1>
+        <div className="hinfo">
+        <ul>
+        <li className="hobbies">Web Developer</li>
+        <li className="hobbies">Outdoor Enthusiast</li>
+        <li className="hobbies">Travel Enthusiast</li>
+        <li className="hobbies">Winter Sport Enthusiast</li>
+        <li className="hobbies">Amateur Pit Master</li>
+        <li className="hobbies">4x4 Rescue Volunteer</li>
+        </ul>
       </div>
     </div>
+    </div>
+
+    <div className="aboutbottom">
+      
+      <img className="pic" src="/assets/hiking.jpg"/>
+      <img className="pic" src="/assets/snowboard.jpg"/>
+      <img className="pic" src="/assets/fish.jpg"/>
+      <img className="pic" src="/assets/travel.jpg"/>
+
+
+    </div>
+
+      </div>
+      
+     
   );
 }
