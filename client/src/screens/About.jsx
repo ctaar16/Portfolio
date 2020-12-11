@@ -35,11 +35,12 @@ I am a versatile software engineer who is passionate about learning and eager to
       
       <img className="pic" src="/assets/hiking.jpg"/>
       <img className="pic" src="/assets/snowboard.jpg"/>
-      <img className="pic" src="/assets/fish.jpg"/>
-      <img className="pic" src="/assets/travel.jpg"/>
       <video className="vid" autoPlay loop muted>
         <source src={rescue} type="video/mp4"/>
       </video>
+      <img className="pic" src="/assets/fish.jpg"/>
+      <img className="pic" src="/assets/travel.jpg"/>
+     
 
 
     </div>
