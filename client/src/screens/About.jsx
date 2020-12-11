@@ -17,7 +17,7 @@ I am a versatile software engineer who is passionate about learning and eager to
     </div>
       
       <div className="othercontainer">
-        <h1 className="containertitle">Other Interests</h1>
+        <h1 className="containertitle">Other Hobbies</h1>
         <div className="hinfo">
         <ul>
         <li className="hobbies">Developing Apps</li>
