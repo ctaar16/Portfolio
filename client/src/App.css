@@ -267,8 +267,8 @@
   margin: 10px 0px 10px 0px
 }
 .resume:hover{
-  color:green;
+  background-color:green;
 }
 .submitbutton:hover{
-  color:green;
+  background-color:green;
 }
