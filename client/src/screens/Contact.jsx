@@ -14,7 +14,7 @@ export default class Contact extends React.Component {
     return (
       <div>
         <div className="contact">
-          <h1 className="contacttitle">CONTACT</h1>
+          <h2 className="contacttitle">Contact Me</h2>
 
           <section className="contactbox">
             <form
