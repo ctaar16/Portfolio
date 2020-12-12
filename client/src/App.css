@@ -23,37 +23,36 @@
 }
 
 .name {
-  width: 495px;
-  margin: 80px 160px 0px 680px;
   font-size: 100px;
   color: white;
   text-shadow: 2px 2px #ddbea9;
+  margin: 70px 110px 0px 420px;
+  
 }
 
 .position {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  align-content: flex-end;
-  width: 30px;
-  margin: 0px 950px 0px 0px;
+  justify-content: space-around;
   font-size: 100px;
+  margin: 70px 250px 0px 0px;
   color: white;
   text-shadow: 2px 2px #ddbea9;
 }
 
 .main {
   display: flex;
+  justify-content: space-around;
+  
 }
 
 .slash {
-  color: white;
-  background-color: white;
+  color: #fff;
+  background-color: #fff;
   display: inline-block;
   position: absolute;
   height: 130px;
-  padding: 140px 0px 30px 0px;
-  margin: 55px 0px 0px 980px;
+  padding: 180px 0 10px;
+  margin: 60px 0px 0px 0px;
 }
 
 .explore {
