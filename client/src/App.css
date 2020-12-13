@@ -123,7 +123,7 @@
 
 .aboutmain{
   color: rgb(77, 74, 74);
-  height: 800%vh;
+  /* height: 800%vh; */
   display: flex;
   flex-direction: column;
 }
@@ -134,7 +134,7 @@
 .aboutcontainer {
   color: white;
   font-size: 30px;
-  margin: 0px 0px 0px 90px;
+  margin: 0px 0px 0px 50px;
 }
 .aboutcontainer:hover{
   transform: scale(1.1);
@@ -270,4 +270,142 @@
 }
 .submitbutton:hover{
   background-color:green;
+}
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+  .contactbox{
+    width: 290px;
+  }
+  
+  .contactform{
+    width: 220px;
+  }
+  .submitbutton, .resume{
+    width: 130px;
+    height:30px;
+    margin-top: 15px;
+  }
+  .App{
+    background-size: 300%;
+  }
+  
+  .abouttop{
+    flex-direction: column;
+  }
+
+  .info{
+    width: 280px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .othercontainer{
+    margin: 0 auto;
+  }
+
+  .hinfo{
+    width:300px;
+  }
+
+  .card1{
+    width: 300px;
+  }
+
+  .button{
+    width: 80px;
+    height: 50px;
+  }
+
+  .main{
+    width: 340px;
+  }
+  .name{
+    font-size: 40px;
+    width: 40px;
+    margin: 70px 50px 0px 0px;
+  }
+  .position{
+    font-size: 40px;
+    width: 40px;
+    margin: 70px 0px 0px 20px;
+  }
+
+  .slash{
+    padding: 0px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
+  }
+
+  .containertitle, .porttitle{
+    color:#DDBEA9 ;
+    text-shadow:2px 2px white ;
+  }
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  
+  .contactbox{
+    width: 560px;
+    height: 220px;
+  }
+    
+  .contactform{
+    width: 400px;
+}
+  .submitbutton, .resume{
+    width: 100px;
+    height:30px;
+    margin-top: 18px;
+    padding: 3px;
+  }
+
+  .abouttop{
+    flex-direction:column;
+  }
+
+  .info{
+    width: 600px;
+  }
+
+  .othercontainer{
+    width: 500px;
+  }
+
+  .card1{
+    width: 550px;
+  }
+
+  .containertitle, .porttitle{
+    color:#DDBEA9 ;
+    text-shadow:2px 2px white ;
+  }
+
+  .name{
+    font-size: 65px;
+    margin: 110px 0px 0px 120px;
+  }
+
+  .position{
+    font-size: 65px;
+    margin: 110px 0px 0px 0px;
+  }
+
 }

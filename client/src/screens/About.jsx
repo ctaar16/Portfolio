@@ -13,6 +13,13 @@ export default function About() {
         <p>
 I am a versatile software engineer who is passionate about learning and eager to make long-term contributions at a respected company. With over eight years of professional experience, including experience managing a team of website developers, I am making a career shift to focus directly on programming. I enjoy the technically challenging aspects of application development, and I am excited to continue improving my programming skills while working as a vital member of a successful team.
         </p>
+        <p>
+          Languages and Frameworks:
+        </p>
+        <p>
+        HTML, CSS, Javascript, React.js, Node.js, Ruby, Ruby on Rails, PostgreSQL, Express, MongoDB, and Mongoose.
+        </p>
+     
       </div>
     </div>
       
