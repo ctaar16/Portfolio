@@ -14,7 +14,7 @@ export default function Portfolio() {
                 <img className="tnail"  src="/assets/covid.png" />
                 <p className="cardtext">The Global COVID Tracker lists cumulative new infections, recoveries, and fatality data sourced from Johns Hopkins University.  This app features a self-reporting symptoms tool where users can see what others are feeling.</p>
                   <p className="cardtext">Technologies Used:</p>
-                  <p className="cardtext">HTML, CSS, Javascript, React,  leveraged AirTable to create and consume RESTFUL API data</p>
+                  <p className="cardtext">HTML, CSS, Javascript, React, leveraged AirTable to create and consume RESTFUL API data</p>
                   <button className="button"><a target="_blank" rel="noopener noreferrer" href="https://theglobalcovidtracker.netlify.app/" className="button">Visit Project</a></button>
                   <button className="button"><a target="_blank" rel="noopener noreferrer" href="https://github.com/ctaar16/Corona-Virus-Tracker" className="button">Visit Github</a></button>
             </div>
