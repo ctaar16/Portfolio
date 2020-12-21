@@ -12,18 +12,12 @@ import Contact from './screens/Contact';
 function App() {
   return (
     <div className="App">
-      <Layout >
+      <Layout>
         <Switch>
-
-
           <Route path = "/Portfolio" component ={Portfolio}></Route>
-
           <Route path = "/About" component ={About}></Route>
-
           <Route path = "/Contact" component ={Contact}></Route>
-
           <Route path = "/" component ={Homepage}></Route>
-
         </Switch>
       </Layout>
     </div>

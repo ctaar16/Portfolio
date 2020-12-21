@@ -10,7 +10,7 @@ export default function Homepage() {
         <p className="position">Software Engineer</p>
       </div>
       <div className="explore">
-       <Link to="/Portfolio" className="emw" >Explore My Work</Link>
+       <Link to="/Portfolio" className="emw">Explore My Work</Link>
       </div>
 
     </div>
