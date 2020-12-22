@@ -291,7 +291,7 @@
     margin-top: 15px;
   }
   .App{
-    background-size: 300%;
+    background-size: cover;
   }
   
   .abouttop{
@@ -362,6 +362,10 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   
+  .App{
+    background-size: cover;
+  }
+
   .contactbox{
     width: 560px;
     height: 220px;
@@ -393,10 +397,6 @@
     width: 550px;
   }
 
-  .containertitle, .porttitle{
-    color:#DDBEA9 ;
-    text-shadow:2px 2px white ;
-  }
 
   .name{
     font-size: 65px;
