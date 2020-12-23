@@ -167,7 +167,7 @@
   transform: scale(1.02);
 }
 
-.containertitle {
+.containertitle,.containertitle1 {
   color: white;
   text-shadow: 2px 2px #ddbea9;
 }
@@ -274,6 +274,14 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .contactbox {
     width: 290px;
+  }
+
+  .containertitle{
+    margin: 40px 40px 20px 0px;
+  }
+
+  .containertitle1{
+    margin: 20px 0px 20px 0px;
   }
 
   .contactform {
