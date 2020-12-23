@@ -12,19 +12,19 @@ export default function Header() {
       
       <div className="headercenter">
         <Link to="/" className="link">
-          <h2>Home</h2>
+          <h2 className="link">Home</h2>
         </Link>
 
         <Link to="/Portfolio" className="link">
-          <h2>Portfolio</h2>
+          <h2 className="link">Portfolio</h2>
         </Link>
 
         <Link to="/About" className="link">
-          <h2>About</h2>
+          <h2 className="link">About</h2>
         </Link>
 
         <Link to="Contact" className="link">
-          <h2>Contact</h2>
+          <h2 className="link">Contact</h2>
         </Link>
       </div>
 

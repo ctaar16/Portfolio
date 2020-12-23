@@ -9,11 +9,13 @@
 .headercenter{
   display:flex;
   justify-content: space-between;
-  margin: 0px 0px 0px 100px;
+  margin: 0px 2px 0px 70px;
 }
 
 .headerleft, .headerright{
   align-items: center;
+  margin: 5px;
+  padding: 5px;
 }
 
 .link {
@@ -39,22 +41,24 @@
   height:60px;
   width:60px;
   margin: 0px 0px 0px 0px; 
+  padding:7px;
 }
 
 .linked{
   height: 60px;
   width: 60px;
   right: 3px;
+  padding:7px;
 }
 
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* iphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 820px) {
 
 .link{
   margin: 0px 0px 0px 0px;
   padding:2px;
-  font-size: 10px;
+  font-size: 14px;
  
 }
 
@@ -71,11 +75,12 @@
 }
 
 
+
 }
 
 
 
-
+/* Ipad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .headercenter{
     width: 50%;
