@@ -124,6 +124,7 @@
 }
 .abouttop {
   display: flex;
+  flex-direction: column;
 }
 
 .aboutcontainer {
@@ -155,8 +156,8 @@
   border-radius: 50px;
   margin: 0 auto;
   font-size: 27px;
-  margin-bottom: 45px;
   opacity: 0.8;
+
 }
 
 .othercontainer {
@@ -175,6 +176,7 @@
 .hobbies {
   display: flex;
   align-content: center;
+  text-align: center;
 }
 
 .pic {
@@ -295,7 +297,7 @@
   }
 
   .resume{
-    width: 55vw;
+    width: 59vw;
   }
 
   .App {
