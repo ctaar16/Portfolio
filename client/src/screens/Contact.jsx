@@ -41,7 +41,7 @@ export default class Contact extends React.Component {
                     target="_blank"
                     href="https://drive.google.com/file/d/1g_TRyQzHWxOYxlhhBsZQ-DMe0XD2Q6Rm/view?usp=sharing"
                   >
-                    RESUME
+                    VIEW MY RESUME
                   </a>
                 </button>
               </div>

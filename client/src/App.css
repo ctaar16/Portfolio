@@ -3,7 +3,7 @@
   background-image: url(https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/116192809_10221736682593643_582616306627779396_o.jpg?_nc_cat=106&ccb=2&_nc_sid=8bfeb9&_nc_ohc=EakAzijBQWsAX_zR_Nr&_nc_ht=scontent.fapa1-1.fna&oh=4a9200e16b339168a2cbd5b7b643beee&oe=5FF8965D);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 210%;
+  background-size: cover;
 }
 
 .headercenter {
@@ -109,7 +109,7 @@
   font-size: 15px;
   border-radius: 50px;
   margin: 4px;
-  width: 10vw;
+  width: 8vw;
   height: 5vh;
 }
 
@@ -252,7 +252,7 @@
 .resume {
   background-color: #355f54;
   font-size: 20px;
-  width: 10vw;
+  width: 15vw;
   height: 5vh;
   border-radius: 35px;
   margin: 10px 0px 10px 0px;
@@ -293,6 +293,11 @@
     height: 30px;
     margin-top: 15px;
   }
+
+  .resume{
+    width: 55vw;
+  }
+
   .App {
     background-size: cover;
   }
@@ -319,7 +324,7 @@
   }
 
   .button {
-    width: 80px;
+    width: 30vw;
     height: 50px;
   }
 
@@ -378,12 +383,18 @@
     padding: 3px;
   }
 
+  .resume{
+    width: 30vw;
+  }
+
   .abouttop {
     flex-direction: column;
   }
 
   .info {
-    width: 600px;
+    width: 650px;
+    align-items: center;
+    padding: 10px;
   }
 
   .othercontainer {
@@ -401,7 +412,6 @@
 
   .slash {
     margin: 100px 0px 0px 400px;
-    
   }
 
   .position {
@@ -414,4 +424,11 @@
     margin-top: 70px;
     font-size: 50px;
   }
+
+  .button{
+    width: 17vw;
+  }
+
+
+
 }
