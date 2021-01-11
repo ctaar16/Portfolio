@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import linkedin from "../assets/linkedin.png"
+import github from "../assets/github.png"
+import chris from "../assets/chris.jpeg"
 
 export default function Header() {
   return (
     <div className="top">
       <div className="headerleft">
-        <img className="face" src="/assets/chris.jpeg" />
+        <img className="face" src={chris} />
       </div>
 
       
@@ -30,10 +33,10 @@ export default function Header() {
 
       <div className="headerright">
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chris-haar/">
-        <img className="linked" src="/assets/linkedin.png" />
+        <img className="linked" src={linkedin} />
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ctaar16">
-        <img className="git" src="/assets/github.png" />
+        <img className="git" src={github} />
         </a>
       </div>
     </div>

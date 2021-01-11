@@ -1,4 +1,13 @@
 import React from "react";
+import allblog from "../assets/allblog.png"
+import covid from "../assets/covid.png"
+import globalweather from "../assets/globalweather.png"
+import mindyourmoney from "../assets/mindyourmoney.png"
+import wannit from "../assets/wannit.png"
+
+
+
+
 
 export default function Portfolio() {
   return (
@@ -10,7 +19,7 @@ export default function Portfolio() {
       <div className="card1">
         <div className="cardbody1">
           <h5 className="cardtitle">Global COVID Tracker</h5>
-          <img className="tnail" src="/assets/covid.png" />
+          <img className="tnail" src={covid} />
           <p className="cardtext">
             The Global COVID Tracker lists cumulative new infections,
             recoveries, and fatality data sourced from Johns Hopkins University.
@@ -48,7 +57,7 @@ export default function Portfolio() {
       <div className="card1">
         <div className="cardbody1">
           <h5 className="cardtitle">Mind Your Money</h5>
-          <img className="tnail" src="/assets/mindyourmoney.png" />
+          <img className="tnail" src={mindyourmoney} />
           <p className="cardtext">
             Mind Your Money is a money management tool designed to set goals and
             allocate funds to said goals. This project was built by taking in
@@ -83,7 +92,7 @@ export default function Portfolio() {
       <div className="card1">
         <div className="cardbody1">
           <h5 className="cardtitle">Global Weather</h5>
-          <img className="tnail" src="/assets/globalweather.png" />
+          <img className="tnail" src={globalweather} />
           <p className="cardtext">
             Global Weather is a standard weather application where users can
             enter their city of choice to retrieve the latest weather
@@ -117,7 +126,7 @@ export default function Portfolio() {
       <div className="card1">
         <div className="cardbody1">
           <h5 className="cardtitle">Blog-App</h5>
-          <img className="tnail" src="/assets/allblog.png" />
+          <img className="tnail" src={allblog} />
           <p className="cardtext">
             Blog-App is a blog app where anyone can write down their thoughts on
             any subject. This project features full CRUD on the front-end
@@ -152,7 +161,7 @@ export default function Portfolio() {
       <div className="card1">
         <div className="cardbody1">
           <h5 className="cardtitle">Wannit</h5>
-          <img className="tnail" src="/assets/wannit.png" />
+          <img className="tnail" src={wannit} />
           <p className="cardtext">
             Wannit is everyone's next go-to shopping list app that can be used
             for several different occasions, be it birthdays, holidays, or

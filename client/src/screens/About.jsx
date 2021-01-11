@@ -1,5 +1,12 @@
 import React from "react";
 import rescue from '../videos/rescue.mp4'
+import fish from "../assets/fish.jpg"
+import travel from "../assets/travel.jpg"
+import hiking from "../assets/hiking.jpg"
+import snowboard from "../assets/snowboard.jpg"
+
+
+
 
 export default function About() {
   return (
@@ -40,13 +47,13 @@ I am a versatile software engineer who is passionate about learning and eager to
 
     <div className="aboutbottom">
       
-      <img className="pic" src="/assets/hiking.jpg"/>
-      <img className="pic" src="/assets/snowboard.jpg"/>
+      <img className="pic" src={hiking}/>
+      <img className="pic" src={snowboard}/>
       <video className="vid" autoPlay loop muted>
         <source src={rescue} type="video/mp4"/>
       </video>
-      <img className="pic" src="/assets/fish.jpg"/>
-      <img className="pic" src="/assets/travel.jpg"/>
+      <img className="pic" src={fish}/>
+      <img className="pic" src={travel}/>
      
 
 
