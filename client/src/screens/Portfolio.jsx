@@ -214,7 +214,7 @@ export default function Portfolio() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://theglobalcovidtracker.netlify.app/"
+              href="https://netflix2-39bba.web.app/"
               className="button"
             >
               Visit Project
@@ -250,7 +250,7 @@ export default function Portfolio() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="countries2rest.surge.sh"
+              href="https://countries2rest.surge.sh"
               className="button"
             >
               Visit Project
