@@ -4,6 +4,8 @@ import covid from "../assets/covid.png"
 import globalweather from "../assets/globalweather.png"
 import mindyourmoney from "../assets/mindyourmoney.png"
 import wannit from "../assets/wannit.png"
+import countries from "../assets/countries.png"
+import netflix from "../assets/netflix.png"
 
 
 
@@ -195,6 +197,79 @@ export default function Portfolio() {
           </button>
         </div>
       </div>
+      <div className="card1">
+        <div className="cardbody1">
+          <h5 className="cardtitle">Netflix Clone</h5>
+          <img className="tnail" src={netflix} />
+          <p className="cardtext">
+            The Netflix Clone is exactly what it sounds like. It is a clone that mirrors Netflix's interface that lists all movie data that
+            has been sourced from the movieDB API.  No movies can actually be played but functions almost identically to the actual application.  
+          </p>
+          <p className="cardtext">Technologies Used:</p>
+          <p className="cardtext">
+          HTML, CSS, Javascript, React, leveraged axios to
+            consume API data.
+          </p>
+          <button className="button">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://theglobalcovidtracker.netlify.app/"
+              className="button"
+            >
+              Visit Project
+            </a>
+          </button>
+          <button className="button">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/ctaar16/netflix-clone"
+              className="button"
+            >
+              Visit Github
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className="card1">
+        <div className="cardbody1">
+          <h5 className="cardtitle">Countries of the World</h5>
+          <img className="tnail" src={countries} />
+          <p className="cardtext">
+            The Countries app is a useful tool that alows you to search information about every country in the world.  The React app features a search function as well as a light and dark mode.
+            Users can select each country's card to view more detailed information about that specific country.
+            
+          </p>
+          <p className="cardtext">Technologies Used:</p>
+          <p className="cardtext">
+            HTML, CSS, Javascript, React, leveraged axios to
+            consume API data.
+          </p>
+          <button className="button">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="countries2rest.surge.sh"
+              className="button"
+            >
+              Visit Project
+            </a>
+          </button>
+          <button className="button">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/ctaar16/Countries/tree/main/src"
+              className="button"
+            >
+              Visit Github
+            </a>
+          </button>
+        </div>
+      </div>
     </div>
+
+    
   );
 }
