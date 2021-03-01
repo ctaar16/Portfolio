@@ -3,7 +3,7 @@ import allblog from "../assets/allblog.png"
 import covid from "../assets/covid.png"
 import globalweather from "../assets/globalweather.png"
 import mindyourmoney from "../assets/mindyourmoney.png"
-import wannit from "../assets/wannit.png"
+import wannit2 from "../assets/wannit2.png"
 import countries from "../assets/countries.png"
 import netflix from "../assets/netflix.png"
 
@@ -163,7 +163,7 @@ export default function Portfolio() {
       <div className="card1">
         <div className="cardbody1">
           <h5 className="cardtitle">Wannit</h5>
-          <img className="tnail" src={wannit} />
+          <img className="tnail" src={wannit2} />
           <p className="cardtext">
             Wannit is everyone's next go-to shopping list app that can be used
             for several different occasions, be it birthdays, holidays, or
